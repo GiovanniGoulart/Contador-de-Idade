@@ -3,24 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de exercicio</title>
+    <title>Verificador de idades</title>
 <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <header>
-      <h1>Hora do Dia</h1>
+      <h1>Verificador de Idade</h1>
     </header>
     <section>
        <div>
-testando
+        <p>Ano de nascimento:
+        <input type="number"name="txtano"id="txtano" min="0" max="120">
+    </p>
+    <p>Sexo:
+        <input type="radio"name="radsex"id="masc" checked>
+        <label for="masc">Masculino</label>
+        <input type="radio"name="radsex"id="fem">
+        <label for="masc">Feminino</label>
+    </p>
+    <p>
+        <input type="button"value='Verificar'onclick="verificar()">
+    </p>
        </div>
-       <div>
-Olá!!
+       <div id="res">
+Preencha os dados acima para ver o resultado!
        </div>     
     </section>
     <footer>
-        <p>&copy;CursoemVideo</p>
-    </footer>
+        <p>
+          Projeto construído por Giovanni Goulart para fins didáticos, com o objetivo de colocar em
+          prática os conhecimentos de HTML, CSS e JavaScript aprendidos durante aulas do CursoemVideo com o professor Gustavo Guanabara.
+        </p>
+        <img src="assets/images/footer/logo.svg" alt="">
+        <li><a href="https://github.com/GiovanniGoulart">Meus Repositorios no GitHub</a></li>
+              <li><a href="https://www.youtube.com/channel/UC0yfrDoFXQHtziSv4tdFfWg">Siga meu Canal do Youtube </a></li>
+              <li><a href="https://t.me/GiovanniGoulart">Telegram</a></li>
+              <li><a href="https://instagram.com/goulart_giovanni?gshid=NjZiMGI4OTY">Instagram</a></li>
+              </footer>
+      
     <script src="script.js"></script>
 </body>
 </html>
