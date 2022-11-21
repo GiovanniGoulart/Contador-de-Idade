@@ -19,3 +19,6 @@ footer {
 text-align: center;
 font-style: italic;
 }
+li a {
+    color: rgb(53, 16, 158);
+}
